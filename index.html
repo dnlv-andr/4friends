@@ -73,7 +73,7 @@
         .content-wrapper {
             width: 100%;
             max-width: 480px;
-            margin: auto;
+            margin: auto 24px;
         }
 
         .logo-box svg {
@@ -106,14 +106,42 @@
 
         a.button span {
             padding-top: 18px;
-            font-weight: 500;
             color: #8A654B;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 23px;
+            letter-spacing: -0.02em;
         }
 
         a.button i {
             position: absolute;
               top: 16px;
               right: 20px;
+        }
+
+        .add-info-box {
+            margin-top: 48px;
+        }
+
+        .add-info-box .address {
+            margin-bottom: 11px;
+
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 23px;
+            letter-spacing: -0.02em;
+        }
+
+        .add-info-box span {
+            color: rgba(0, 0, 0, 0.5);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: -0.01em;
+        }
+
+        .add-info-box span.right {
+            float: right;
         }
 
     </style>
@@ -180,11 +208,11 @@
                 <div class="working-hours-box">
                     <div class="row">
                         <span class="left">У будні</span>
-                        <div class="right">з 10:00 до 21:00</div>
+                        <span class="right">з 10:00 до 21:00</span>
                     </div>
                     <div class="row">
                         <span class="left">На вихідних</span>
-                        <div class="right">з 10:00 до 22:00</div>
+                        <span class="right">з 10:00 до 22:00</span>
                     </div>
                 </div>
             </div>
