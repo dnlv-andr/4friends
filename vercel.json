@@ -1,0 +1,15 @@
+{
+    "redirects": [
+      {
+        "source": "/tips",
+        "has": [
+          {
+            "type": "host",
+            "value": "75290-nuxtjs-redirects.vercel.app"
+          }
+        ],
+        "destination": "https://secure.wayforpay.com/tips/tc480f80dee67",
+        "permanent": false
+      }
+    ]
+  }
