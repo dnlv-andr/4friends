@@ -5,7 +5,7 @@
         "has": [
           {
             "type": "host",
-            "value": "75290-nuxtjs-redirects.vercel.app"
+            "value": "4friends.cafe"
           }
         ],
         "destination": "https://secure.wayforpay.com/tips/tc480f80dee67",
