@@ -53,6 +53,22 @@
 
 
 /* =========================================================================
+ *  Icons
+ * ========================================================================= */
+
+.icon24 {
+    width: 2.4rem;
+    height: 2.4rem;
+    fill: black;
+}
+
+.icon48 {
+    width: 4.8rem;
+    height: 4.8rem;
+}
+
+
+/* =========================================================================
  *  Card
  * ========================================================================= */
 
@@ -75,8 +91,87 @@
         box-shadow: $card-colored-shadow;
     }
 
-    &.menu-card {
+    &.main-bg {
         background: linear-gradient(95deg, rgba(250, 82, 82, 0.04) 0%, rgba(92, 124, 250, 0.04) 100%), rgba(245, 246, 248, 0.12);
     }
 
+}
+
+
+/* =========================================================================
+ *  List menu
+ * ========================================================================= */
+
+.menu-list {
+    flex-direction: column;
+    margin: 0 2.4rem;
+
+    .menu-list-item {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+
+        height: 6.4rem;
+        padding: 0 2.4rem 0 1.6rem;
+
+        border-bottom: .05rem solid $grey-1_lightmode;
+        transition: background-color .24s;
+
+        text-decoration: none;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+
+        span {
+            transform: translateY(-0.1rem);
+        }
+
+        svg {
+            stroke: $black;
+            opacity: .28;
+            transition: opacity .24s;
+        }
+    }
+}
+
+
+/* =========================================================================
+ *  Slider menu
+ * ========================================================================= */
+
+ .menu-slider {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding: 1.6rem 2.4rem;
+
+    .slider-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: .8rem;
+
+        .menu-slider-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            min-width: 12rem;
+            height: 12rem;
+            padding: 1.6rem 1.6rem 2.2rem;
+
+            svg {
+                width: 4.8rem;
+                height: 4.8rem;
+                
+                fill: $black;
+                opacity: .32;
+                transition: opacity .24s;
+            }
+        }
+
+        .spacer {
+            min-width: 1.6rem;
+        }
+    }
 }

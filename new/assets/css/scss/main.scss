@@ -160,10 +160,6 @@ header {
             .route-button {
                 height: 3.2rem;
                 border-radius: 4rem;
-
-                span {
-                    transform: translateY(-0.1rem);
-                }
             }
 
             .current-status {
@@ -213,89 +209,7 @@ header {
 .main-content {
     display: flex;
     flex-direction: column;
-
-    .menu-list-item {
-        display: flex;
-        justify-content: space-between;
-        transition: background-color .24s;
-        text-decoration: none;
-        
-        svg {
-            opacity: .24;
-            transition: opacity .24s;
-        }
-    }
-
-
-/*  Main menu wrapper
- * ========================================================================= */
-
-    .main-menu {
-        padding: 4rem 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-
-/*  Main menu - vertical list
- * ========================================================================= */
-
-    .menu-list-wrapper {
-        padding: 0 2.4rem;
-
-        .menu-vert-list {
-            flex-direction: column;
-            
-            .menu-list-item {
-                align-items: center;
-                flex-direction: row;
-                height: 6.4rem;
-                padding: 0 2.4rem 0 1.6rem;
-                border-bottom: .05rem solid $grey-1_lightmode;
-
-                &:last-child {
-                    border-bottom: 0;
-                }
-
-                span {
-                    transform: translateY(-0.1rem);
-                }
-
-                svg {
-                    stroke: $black;
-                }
-            }
-        }
-    }
-
-        
-/*  Main menu - horizontal lists
- * ========================================================================= */
-
-    .menu-slider {
-        overflow-y: auto;
-
-        .scroll-wrapper {
-            display: flex;
-            width: calc( (12rem * 4) + (.8rem * 3) + 4.8rem);
-            flex-direction: row;
-            padding: 1.6rem 2.4rem;
-            gap: .8rem;
-
-            .menu-list-item {
-                flex-direction: column;
-                min-width: 12rem;
-                height: 12rem;
-                padding: 1.6rem 1.6rem 2.2rem;
-
-                svg {
-                    width: 4.8rem;
-                    height: 4.8rem;
-                    fill: $black;
-                }
-            }
-        }
-    }
+    padding: 4rem 0;
 }
 
 

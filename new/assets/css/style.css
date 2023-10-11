@@ -77,6 +77,20 @@
 }
 
 /* =========================================================================
+ *  Icons
+ * ========================================================================= */
+.icon24 {
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: black;
+}
+
+.icon48 {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+/* =========================================================================
  *  Card
  * ========================================================================= */
 .card {
@@ -95,8 +109,70 @@
   background: linear-gradient(95deg, rgba(250, 82, 82, 0.1) 0%, rgba(92, 124, 250, 0.1) 100%), rgba(245, 246, 248, 0.24);
   box-shadow: 0 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.03), 0 0.3rem 0.5rem 0 rgba(0, 0, 0, 0.03);
 }
-.card.menu-card {
+.card.main-bg {
   background: linear-gradient(95deg, rgba(250, 82, 82, 0.04) 0%, rgba(92, 124, 250, 0.04) 100%), rgba(245, 246, 248, 0.12);
+}
+
+/* =========================================================================
+ *  List menu
+ * ========================================================================= */
+.menu-list {
+  flex-direction: column;
+  margin: 0 2.4rem;
+}
+.menu-list .menu-list-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 6.4rem;
+  padding: 0 2.4rem 0 1.6rem;
+  border-bottom: 0.05rem solid rgba(0, 0, 0, 0.08);
+  transition: background-color 0.24s;
+  text-decoration: none;
+}
+.menu-list .menu-list-item:last-child {
+  border-bottom: 0;
+}
+.menu-list .menu-list-item span {
+  transform: translateY(-0.1rem);
+}
+.menu-list .menu-list-item svg {
+  stroke: #000003;
+  opacity: 0.28;
+  transition: opacity 0.24s;
+}
+
+/* =========================================================================
+ *  Slider menu
+ * ========================================================================= */
+.menu-slider {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding: 1.6rem 2.4rem;
+}
+.menu-slider .slider-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+}
+.menu-slider .slider-wrapper .menu-slider-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 12rem;
+  height: 12rem;
+  padding: 1.6rem 1.6rem 2.2rem;
+}
+.menu-slider .slider-wrapper .menu-slider-item svg {
+  width: 4.8rem;
+  height: 4.8rem;
+  fill: #000003;
+  opacity: 0.32;
+  transition: opacity 0.24s;
+}
+.menu-slider .slider-wrapper .spacer {
+  min-width: 1.6rem;
 }
 
 html, body {
@@ -232,10 +308,6 @@ header .place-info .second-line .route-button {
   height: 3.2rem;
   border-radius: 4rem;
 }
-header .place-info .second-line .current-status span,
-header .place-info .second-line .route-button span {
-  transform: translateY(-0.1rem);
-}
 header .place-info .second-line .current-status {
   display: flex;
   align-items: center;
@@ -277,70 +349,7 @@ header .place-info .second-line .route-button:hover {
 .main-content {
   display: flex;
   flex-direction: column;
-  /*  Main menu wrapper
-   * ========================================================================= */
-  /*  Main menu - vertical list
-   * ========================================================================= */
-  /*  Main menu - horizontal lists
-   * ========================================================================= */
-}
-.main-content .menu-list-item {
-  display: flex;
-  justify-content: space-between;
-  transition: background-color 0.24s;
-  text-decoration: none;
-}
-.main-content .menu-list-item svg {
-  opacity: 0.24;
-  transition: opacity 0.24s;
-}
-.main-content .main-menu {
   padding: 4rem 0;
-  display: flex;
-  flex-direction: column;
-}
-.main-content .menu-list-wrapper {
-  padding: 0 2.4rem;
-}
-.main-content .menu-list-wrapper .menu-vert-list {
-  flex-direction: column;
-}
-.main-content .menu-list-wrapper .menu-vert-list .menu-list-item {
-  align-items: center;
-  flex-direction: row;
-  height: 6.4rem;
-  padding: 0 2.4rem 0 1.6rem;
-  border-bottom: 0.05rem solid rgba(0, 0, 0, 0.08);
-}
-.main-content .menu-list-wrapper .menu-vert-list .menu-list-item:last-child {
-  border-bottom: 0;
-}
-.main-content .menu-list-wrapper .menu-vert-list .menu-list-item span {
-  transform: translateY(-0.1rem);
-}
-.main-content .menu-list-wrapper .menu-vert-list .menu-list-item svg {
-  stroke: #000003;
-}
-.main-content .menu-slider {
-  overflow-y: auto;
-}
-.main-content .menu-slider .scroll-wrapper {
-  display: flex;
-  width: 55.2rem;
-  flex-direction: row;
-  padding: 1.6rem 2.4rem;
-  gap: 0.8rem;
-}
-.main-content .menu-slider .scroll-wrapper .menu-list-item {
-  flex-direction: column;
-  min-width: 12rem;
-  height: 12rem;
-  padding: 1.6rem 1.6rem 2.2rem;
-}
-.main-content .menu-slider .scroll-wrapper .menu-list-item svg {
-  width: 4.8rem;
-  height: 4.8rem;
-  fill: #000003;
 }
 
 /* =========================================================================
