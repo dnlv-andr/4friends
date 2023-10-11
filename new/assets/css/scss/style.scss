@@ -1,0 +1,20 @@
+@font-face {
+    font-family: KyivTypeSans;
+    src: local(KyivTypeSans),
+        local(KyivTypeSans-Regular),
+        url(../fonts/KyivTypeSans-Regular.woff) format('woff'),
+        url(../fonts/KyivTypeSans-Regular.woff2) format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: KyivTypeSans;
+    src: local(KyivTypeSans),
+    local(KyivTypeSans-Medium),
+    url(../fonts/KyivTypeSans-Medium.woff) format('woff'),
+    url(../fonts/KyivTypeSans-Medium.woff2) format('woff2');
+    font-weight: 500;
+}
+
+@import 'vars';
+@import 'components';
+@import 'main';

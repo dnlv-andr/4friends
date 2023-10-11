@@ -1,0 +1,82 @@
+
+/* =========================================================================
+ *  Typography
+ * ========================================================================= */
+
+.title-2,
+.title-3,
+.caption-1 {
+    font-weight: 500;
+}
+
+.caption-3,
+.body-1 {
+    font-weight: 400;
+}
+
+.title-2 {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.088rem;
+}
+
+.title-3 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    letter-spacing: -0.072rem;
+}
+
+.caption-1 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: -0.064rem;
+}
+
+.caption-3 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.048rem;
+}
+
+.body-1 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: -0.048rem;
+}
+
+.color-grey-3 { color: $grey-3_lightmode }
+.color-grey-4 { color: $grey-4_lightmode }
+.color-grey-5 { color: $grey-5_lightmode }
+.color-grey-7 { color: $grey-7_lightmode }
+.color-grey-8 { color: $grey-8_lightmode }
+.color-grey-9 { color: $grey-9_lightmode }
+
+
+/* =========================================================================
+ *  Card
+ * ========================================================================= */
+
+.card {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    
+    border-top: .1rem solid rgba(255, 255, 255, 0.20);
+    border-left: .05rem solid rgba(124, 124, 124, 0.20);
+    border-right: .05rem solid rgba(124, 124, 124, 0.20);
+    border-bottom: .1rem solid rgba(0, 0, 0, 0.09);
+
+    border-radius: 2.4rem;
+    text-decoration: none;
+
+    &.colored {
+        backdrop-filter: $card-blur;
+        background: $card-colored-bg;
+        box-shadow: $card-colored-shadow;
+    }
+
+    &.menu-card {
+        background: linear-gradient(95deg, rgba(250, 82, 82, 0.04) 0%, rgba(92, 124, 250, 0.04) 100%), rgba(245, 246, 248, 0.12);
+    }
+
+}

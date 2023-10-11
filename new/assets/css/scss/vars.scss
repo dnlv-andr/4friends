@@ -1,0 +1,34 @@
+
+$kyivtype: "KyivTypeSans", sans-serif;
+
+$card-colored-bg: linear-gradient(95deg, rgba(250, 82, 82, 0.10) 0%, rgba(92, 124, 250, 0.10) 100%), rgba(245, 246, 248, 0.24);
+$card-colored-shadow: 0 .1rem .1rem 0 rgba(0, 0, 0, 0.03), 0 .3rem .5rem 0 rgba(0, 0, 0, 0.03);
+$card-bg-darkmode: rgba(216, 219, 227, .12);
+
+$card-blur: blur(8rem);
+
+
+// Colors
+
+$black: #000003;
+$white: white;
+
+$grey-9_lightmode: rgba(0, 0, 0, 0.86);
+$grey-8_lightmode: rgba(0, 0, 0, 0.72);
+$grey-7_lightmode: rgba(0, 0, 0, 0.66);
+$grey-5_lightmode: rgba(0, 0, 0, 0.54);
+$grey-4_lightmode: rgba(0, 0, 0, 0.38);
+$grey-3_lightmode: rgba(0, 0, 0, 0.26);
+$grey-2_lightmode: rgba(0, 0, 0, 0.16);
+$grey-1_lightmode: rgba(0, 0, 0, 0.08);
+$grey-0_lightmode: rgba(0, 0, 0, 0.05);
+
+$grey-9_darkmode: rgba(255, 255, 255, 0.94);
+$grey-8_darkmode: rgba(255, 255, 255, 0.84);
+$grey-7_darkmode: rgba(255, 255, 255, 0.72);
+$grey-5_darkmode: rgba(255, 255, 255, 0.68);
+$grey-4_darkmode: rgba(255, 255, 255, 0.45);
+$grey-3_darkmode: rgba(255, 255, 255, 0.32);
+$grey-2_darkmode: rgba(255, 255, 255, 0.24);
+$grey-1_darkmode: rgba(255, 255, 255, 0.12);
+$grey-0_darkmode: rgba(255, 255, 255, 0.08);
