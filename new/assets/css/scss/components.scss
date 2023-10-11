@@ -59,7 +59,6 @@
 .icon24 {
     width: 2.4rem;
     height: 2.4rem;
-    fill: black;
 }
 
 .icon48 {
@@ -93,8 +92,42 @@
 
     &.main-bg {
         background: linear-gradient(95deg, rgba(250, 82, 82, 0.04) 0%, rgba(92, 124, 250, 0.04) 100%), rgba(245, 246, 248, 0.12);
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
     }
 
+}
+
+
+/* =========================================================================
+ *  Top bar
+ * ========================================================================= */
+
+.page-top-bar {
+    position: absolute;
+      top: 4rem;
+      left: 0;
+      right: 0;
+    z-index: 200;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+    height: 7.2rem;
+    padding: 2.4rem;
+
+    background: $white-blur;
+    backdrop-filter: blur(20px);
+    transition: $hover-effects;
+
+    &.fixed {
+        border-bottom: .05rem solid $grey-1_lightmode;
+        position: fixed;
+        top: 0;
+    }
+
+    .title-2 {
+        color: $black;
+        transform: translateY(-.2rem);
+    }
 }
 
 
@@ -107,18 +140,13 @@
     margin: 0 2.4rem;
 
     .menu-list-item {
-        display: flex;
-        align-items: center;
         flex-direction: row;
-        justify-content: space-between;
-
+        align-items: center;
         height: 6.4rem;
         padding: 0 2.4rem 0 1.6rem;
 
         border-bottom: .05rem solid $grey-1_lightmode;
         transition: background-color .24s;
-
-        text-decoration: none;
 
         &:last-child {
             border-bottom: 0;
@@ -133,6 +161,10 @@
             opacity: .28;
             transition: opacity .24s;
         }
+
+        &:hover svg {
+            opacity: .5;
+        }
     }
 }
 
@@ -145,6 +177,11 @@
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     padding: 1.6rem 2.4rem;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
 
     .slider-wrapper {
         display: flex;
@@ -152,10 +189,7 @@
         gap: .8rem;
 
         .menu-slider-item {
-            display: flex;
             flex-direction: column;
-            justify-content: space-between;
-
             min-width: 12rem;
             height: 12rem;
             padding: 1.6rem 1.6rem 2.2rem;
@@ -168,10 +202,197 @@
                 opacity: .32;
                 transition: opacity .24s;
             }
+
+            &:hover svg {
+                opacity: .6;
+            }
         }
 
         .spacer {
             min-width: 1.6rem;
         }
     }
+}
+
+.menu-list-item,
+.menu-slider-item {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    transition: $hover-effects;
+
+    &:hover {
+        background: $grey-0_lightmode;
+    }
+}
+
+
+/* =========================================================================
+ *  Category card
+ * ========================================================================= */
+
+.category-menu-section {
+    display: flex;
+    flex-direction: column;
+
+    .menu-card-title {
+        height: 5.6rem;
+        padding: 2.2rem 2.4rem;
+    }
+
+    .items-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        padding: .8rem;
+    }
+
+
+/*  Category card item
+ * ========================================================================= */
+
+    .category-menu-item {
+        display: flex;
+        gap: .8rem;
+        padding: .8rem;
+        border-radius: 1.6rem;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.05) 100%);
+
+        .text-section {
+            display: flex;
+            flex: 1;
+            gap: .4rem;
+            flex-direction: column;
+            justify-content: center;
+            padding: .4rem .8rem;
+        }
+
+        .image-section {
+            width: 9rem;
+            height: 9rem;
+            flex-shrink: 0;
+            overflow: hidden;
+
+            border-radius: .8rem;
+            box-shadow:
+                0px 1px 1px 0px rgba(0, 0, 0, 0.04),
+                0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .items-wrapper {
+        &.horizontal {
+            .category-menu-item {
+                min-height: 7.2rem;
+            }
+        }
+    
+        &.vertical {
+            flex-wrap: wrap;
+            flex-direction: row;
+
+            .category-menu-item {
+                flex-direction: column;
+                width: calc(50% - .4rem);
+    
+                .image-section {
+                    order: 1;
+                    width: 100%;
+                    height: auto;
+                    aspect-ratio: 1;
+                }
+
+                .text-section {
+                    order: 2;
+                }
+            }
+        }
+    }
+    
+
+
+/*  Category card - separator
+ * ========================================================================= */
+
+    hr {
+        display: block;
+        width: calc( 100% - 3.2rem );
+        height: 0;
+        margin: .8rem 1.6rem;
+        padding: 0;
+
+        border: 0;
+        border-bottom: .05rem solid $grey-2_lightmode;
+        background: transparent;
+    }
+}
+
+
+
+/* =========================================================================
+ *  Darkmode
+ * ========================================================================= */
+
+@media (prefers-color-scheme: dark) {
+
+    .color-grey-3 { color: $grey-3_darkmode }
+    .color-grey-4 { color: $grey-4_darkmode }
+    .color-grey-5 { color: $grey-5_darkmode }
+    .color-grey-7 { color: $grey-7_darkmode }
+    .color-grey-8 { color: $grey-8_darkmode }
+    .color-grey-9 { color: $grey-9_darkmode }
+    
+
+    .page-top-bar {
+        background: $black-blur;
+        &.fixed {
+            border-bottom-color: $grey-1_darkmode;
+        }
+        .title-2 {
+            color: $white;
+        }
+    }
+
+    .menu-list {
+        .menu-list-item {
+            border-bottom-color: $grey-1_darkmode;
+
+            svg {
+                stroke: $white;
+            }
+        }
+    }
+
+    .menu-slider {
+        .menu-slider-item {
+            svg {
+                fill: $white;
+            }
+        }
+    }
+
+    .menu-list-item,
+    .menu-slider-item {
+        &:hover {
+            background: $grey-0_darkmode;
+        }
+    }
+
+    .category-menu-section {
+
+        // перевірити
+        .category-menu-item {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.05) 100%);
+        }
+
+        hr {
+            border-bottom-color: $grey-2_darkmode;
+        }
+    }
+
 }

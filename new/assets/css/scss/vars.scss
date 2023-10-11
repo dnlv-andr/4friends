@@ -1,17 +1,22 @@
 
 $kyivtype: "KyivTypeSans", sans-serif;
 
+// Card
+
 $card-colored-bg: linear-gradient(95deg, rgba(250, 82, 82, 0.10) 0%, rgba(92, 124, 250, 0.10) 100%), rgba(245, 246, 248, 0.24);
 $card-colored-shadow: 0 .1rem .1rem 0 rgba(0, 0, 0, 0.03), 0 .3rem .5rem 0 rgba(0, 0, 0, 0.03);
 $card-bg-darkmode: rgba(216, 219, 227, .12);
 
-$card-blur: blur(8rem);
+$card-blur: blur(4rem);
 
 
 // Colors
 
 $black: #000003;
 $white: white;
+
+$black-blur: rgba(0, 0, 0, 0.68);
+$white-blur: rgba(255, 255, 255, 0.80);
 
 $grey-9_lightmode: rgba(0, 0, 0, 0.86);
 $grey-8_lightmode: rgba(0, 0, 0, 0.72);
@@ -32,3 +37,8 @@ $grey-3_darkmode: rgba(255, 255, 255, 0.32);
 $grey-2_darkmode: rgba(255, 255, 255, 0.24);
 $grey-1_darkmode: rgba(255, 255, 255, 0.12);
 $grey-0_darkmode: rgba(255, 255, 255, 0.08);
+
+
+// Other
+
+$hover-effects: background .3s, color .24s, opacity .32s, fill .3s;

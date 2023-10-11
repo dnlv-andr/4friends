@@ -534,6 +534,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/new\/assets\/scripts.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new\/assets\/scripts-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/new\/coffee-tea.html" : {
       "cB" : 0,
       "ft" : 8192,

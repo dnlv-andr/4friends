@@ -7,6 +7,7 @@ html, body {
 }
 
 body {
+    background-color: $white;
     font-size: 1.6rem;
     font-family: $kyivtype;
     font-feature-settings: 'cv01' on, 'ss01' on;
@@ -128,11 +129,11 @@ header {
 
                     border-radius: 4rem;
                     background-color: $grey-2_lightmode;
-                    transition: background-color .24s;
+                    transition: $hover-effects;
                     text-decoration: none;
 
                     svg {
-                        fill: $grey-9_darkmode;
+                        fill: $grey-9_lightmode;
                         transition: fill .24s;
                     }
 
@@ -210,6 +211,12 @@ header {
     display: flex;
     flex-direction: column;
     padding: 4rem 0;
+
+    &.category-menu {
+        position: relative;
+        gap: 1.6rem;
+        padding: 11.2rem 2.4rem 4rem;
+    }
 }
 
 
@@ -235,7 +242,30 @@ footer {
     }
 
     .description-box {
-        padding: 2rem 0 3.6rem;
+        padding: 2rem 0 2rem;
+    }
+
+    .socials-box {
+        padding: 0 0 4rem;
+
+        display: flex;
+        gap: 16px;
+
+        .soc-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            fill: $grey-9_lightmode;
+            transition: $hover-effects;
+
+            color: $grey-9_lightmode;
+            text-decoration: none;
+
+            &:hover {
+                fill: $black;
+            }
+        }
     }
 
     .copyright-box {
@@ -245,6 +275,68 @@ footer {
         a {
             color: $grey-7_lightmode;
             text-decoration: none;
+        }
+    }
+}
+
+
+
+/* =========================================================================
+ *  Darkmode
+ * ========================================================================= */
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: $black;
+    }
+    
+    header {
+        .cover-image {
+            &::after {
+                background: linear-gradient(180deg, rgba(0, 0, 3, 0.00) 0%, rgba(0, 0, 3, 0.01) 6.67%, rgba(0, 0, 3, 0.04) 13.33%, rgba(0, 0, 3, 0.08) 20%, rgba(0, 0, 3, 0.15) 26.67%, rgba(0, 0, 3, 0.23) 33.33%, rgba(0, 0, 3, 0.33) 40%, rgba(0, 0, 3, 0.44) 46.67%, rgba(0, 0, 3, 0.56) 53.33%, rgba(0, 0, 3, 0.67) 60%, rgba(0, 0, 3, 0.77) 66.67%, rgba(0, 0, 3, 0.85) 73.33%, rgba(0, 0, 3, 0.92) 80%, rgba(0, 0, 3, 0.96) 86.67%, rgba(0, 0, 3, 0.99) 93.33%, #000003 100%);
+            }
+        }
+    
+        .place-info {
+            .second-line {
+                .current-status {
+                    background-color: $grey-1_darkmode;
+                    color: $white;
+    
+                    // перевірити
+                    .indicator {
+                        &.open      { background-color: #66CF4C; }
+                        &.last-hour { background-color: #F4980E; }
+                        &.close     { background-color: #9798A4; }
+                    }
+                }
+    
+                .route-button {
+                    color: #9BACFF;
+                }
+            }
+        }
+    }
+    
+    footer {
+        .socials-box {
+            .soc-icon {
+                fill: $grey-9_darkmode;
+                color: $grey-9_darkmode;
+
+                &:hover {
+                    fill: $white;
+                }
+            }
+        }
+    
+        .copyright-box {
+            border-top-color: $grey-3_darkmode;
+
+            a {
+                color: $grey-7_darkmode;
+            }
         }
     }
 }
