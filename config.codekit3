@@ -534,6 +534,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/new\/coffee-tea.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new\/coffee-tea.html",
+      "oF" : 0
+    },
     "\/new\/cover-image\/cover.jpg" : {
       "ft" : 16384,
       "iS" : 255680,

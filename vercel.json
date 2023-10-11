@@ -11,5 +11,6 @@
         "destination": "https://secure.wayforpay.com/tips/tc480f80dee67",
         "permanent": false
       }
-    ]
+    ],
+    "cleanUrls": true
   }
