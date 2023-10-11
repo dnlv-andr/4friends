@@ -163,7 +163,7 @@
   transform: translateY(-0.1rem);
 }
 .menu-list .menu-list-item svg {
-  stroke: #000003;
+  fill: #000003;
   opacity: 0.28;
   transition: opacity 0.24s;
 }
@@ -334,9 +334,9 @@
     border-bottom-color: rgba(255, 255, 255, 0.12);
   }
   .menu-list .menu-list-item svg {
-    stroke: white;
+    fill: white;
   }
-  .menu-slider .menu-slider-item svg {
+  .menu-slider .slider-wrapper .menu-slider-item svg {
     fill: white;
   }
   .menu-list-item:hover,
@@ -465,7 +465,7 @@ header .place-info .first-line .socials-box .soc-icon {
   text-decoration: none;
 }
 header .place-info .first-line .socials-box .soc-icon svg {
-  fill: rgba(0, 0, 0, 0.86);
+  fill: rgba(255, 255, 255, 0.94);
   transition: fill 0.24s;
 }
 header .place-info .first-line .socials-box .soc-icon:hover {

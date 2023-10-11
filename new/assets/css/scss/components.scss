@@ -157,7 +157,7 @@
         }
 
         svg {
-            stroke: $black;
+            fill: $black;
             opacity: .28;
             transition: opacity .24s;
         }
@@ -363,15 +363,16 @@
             border-bottom-color: $grey-1_darkmode;
 
             svg {
-                stroke: $white;
+                fill: $white;
             }
         }
     }
-
     .menu-slider {
-        .menu-slider-item {
-            svg {
-                fill: $white;
+        .slider-wrapper {
+            .menu-slider-item {
+                svg {
+                    fill: $white;
+                }
             }
         }
     }
