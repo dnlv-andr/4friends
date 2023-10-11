@@ -110,7 +110,7 @@
 }
 .card.main-bg {
   background: linear-gradient(95deg, rgba(250, 82, 82, 0.04) 0%, rgba(92, 124, 250, 0.04) 100%), rgba(245, 246, 248, 0.12);
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 0.1rem 0.3rem 0 rgba(0, 0, 0, 0.03);
 }
 
 /* =========================================================================
@@ -128,7 +128,7 @@
   height: 7.2rem;
   padding: 2.4rem;
   background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(2rem);
   transition: background 0.3s, color 0.24s, opacity 0.32s, fill 0.3s;
 }
 .page-top-bar.fixed {
@@ -262,7 +262,7 @@
   flex-shrink: 0;
   overflow: hidden;
   border-radius: 0.8rem;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.04), 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.1);
 }
 .category-menu-section .category-menu-item .image-section img {
   width: 100%;
@@ -443,7 +443,7 @@ header .place-info .first-line {
 }
 header .place-info .first-line .title {
   color: white;
-  text-shadow: 0px 0.05rem 0.2rem rgba(0, 0, 0, 0.18);
+  text-shadow: 0 0.05rem 0.2rem rgba(0, 0, 0, 0.18);
 }
 header .place-info .first-line .address {
   padding-bottom: 0.2rem;
@@ -557,7 +557,7 @@ footer .description-box {
 footer .socials-box {
   padding: 0 0 4rem;
   display: flex;
-  gap: 16px;
+  gap: 2.4rem;
 }
 footer .socials-box .soc-icon {
   display: flex;

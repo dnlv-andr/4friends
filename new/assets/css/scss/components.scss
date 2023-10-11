@@ -92,7 +92,7 @@
 
     &.main-bg {
         background: linear-gradient(95deg, rgba(250, 82, 82, 0.04) 0%, rgba(92, 124, 250, 0.04) 100%), rgba(245, 246, 248, 0.12);
-        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+        box-shadow: 0 .1rem .3rem 0 rgba(0, 0, 0, 0.03);
     }
 
 }
@@ -115,7 +115,7 @@
     padding: 2.4rem;
 
     background: $white-blur;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(2rem);
     transition: $hover-effects;
 
     &.fixed {
@@ -275,8 +275,8 @@
 
             border-radius: .8rem;
             box-shadow:
-                0px 1px 1px 0px rgba(0, 0, 0, 0.04),
-                0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+                0 .1rem .1rem 0 rgba(0, 0, 0, 0.04),
+                0 .2rem .4rem 0 rgba(0, 0, 0, 0.10);
 
             img {
                 width: 100%;

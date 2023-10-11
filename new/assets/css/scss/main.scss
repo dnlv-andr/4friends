@@ -108,7 +108,7 @@ header {
 
             .title {
                 color: $white;
-                text-shadow: 0px 0.05rem .2rem rgba(0, 0, 0, 0.18);
+                text-shadow: 0 0.05rem .2rem rgba(0, 0, 0, 0.18);
             }
             
             .address {
@@ -249,7 +249,7 @@ footer {
         padding: 0 0 4rem;
 
         display: flex;
-        gap: 16px;
+        gap: 2.4rem;
 
         .soc-icon {
             display: flex;
