@@ -344,7 +344,7 @@
     background: rgba(255, 255, 255, 0.08);
   }
   .category-menu-section .category-menu-item {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.05) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.06) 100%);
   }
   .category-menu-section hr {
     border-bottom-color: rgba(255, 255, 255, 0.24);
@@ -501,10 +501,10 @@ header .place-info .second-line .current-status .indicator.open {
   background-color: #66CF4C;
 }
 header .place-info .second-line .current-status .indicator.last-hour {
-  background-color: #F4980E;
+  background-color: #FF9900;
 }
 header .place-info .second-line .current-status .indicator.close {
-  background-color: #9798A4;
+  background-color: #6B6B6B;
 }
 header .place-info .second-line .route-button {
   display: flex;
@@ -593,15 +593,6 @@ footer .copyright-box a {
   header .place-info .second-line .current-status {
     background-color: rgba(255, 255, 255, 0.12);
     color: white;
-  }
-  header .place-info .second-line .current-status .indicator.open {
-    background-color: #66CF4C;
-  }
-  header .place-info .second-line .current-status .indicator.last-hour {
-    background-color: #F4980E;
-  }
-  header .place-info .second-line .current-status .indicator.close {
-    background-color: #9798A4;
   }
   header .place-info .second-line .route-button {
     color: #9BACFF;

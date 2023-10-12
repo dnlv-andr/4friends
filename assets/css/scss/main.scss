@@ -178,8 +178,8 @@ header {
                     border-radius: 50%;
 
                     &.open      { background-color: #66CF4C; }
-                    &.last-hour { background-color: #F4980E; }
-                    &.close     { background-color: #9798A4; }
+                    &.last-hour { background-color: #FF9900; }
+                    &.close     { background-color: #6B6B6B; }
                 }
             }
 
@@ -303,13 +303,6 @@ footer {
                 .current-status {
                     background-color: $grey-1_darkmode;
                     color: $white;
-    
-                    // перевірити
-                    .indicator {
-                        &.open      { background-color: #66CF4C; }
-                        &.last-hour { background-color: #F4980E; }
-                        &.close     { background-color: #9798A4; }
-                    }
                 }
     
                 .route-button {

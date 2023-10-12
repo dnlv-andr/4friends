@@ -1,1 +1,0 @@
-const topbar=document.querySelector(".page-top-bar");window.addEventListener("scroll",(function(){!topbar.classList.contains("fixed")&&window.scrollY>300?topbar.classList.add("fixed"):window.scrollY<=300&&topbar.classList.remove("fixed")}));
