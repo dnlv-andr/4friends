@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener("scroll", function() {
     let scrollTop = window.pageYOffset;
-    let parallaxSpeed = 0.5;
+    let parallaxSpeed = 0.65;
     let offset = scrollTop * parallaxSpeed;
 
     document.querySelector('.cover-image').style.transform = `translateY(${offset}px)`;

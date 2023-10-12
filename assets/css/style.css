@@ -128,11 +128,12 @@
   align-items: center;
   height: 7.2rem;
   padding: 2.4rem;
-  background: rgba(255, 255, 255, 0.8);
+  background: transparent;
   backdrop-filter: blur(2rem);
   transition: background 0.3s, color 0.24s, opacity 0.32s, fill 0.3s;
 }
 .page-top-bar.fixed {
+  background: rgba(255, 255, 255, 0.8);
   border-bottom: 0.05rem solid rgba(0, 0, 0, 0.08);
   position: fixed;
   top: 0;
