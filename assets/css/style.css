@@ -326,10 +326,8 @@
   .color-grey-9 {
     color: rgba(255, 255, 255, 0.94);
   }
-  .page-top-bar {
-    background: rgba(0, 0, 0, 0.68);
-  }
   .page-top-bar.fixed {
+    background: rgba(0, 0, 0, 0.68);
     border-bottom-color: rgba(255, 255, 255, 0.12);
   }
   .page-top-bar .action-back {

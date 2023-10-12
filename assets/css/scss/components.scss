@@ -355,8 +355,8 @@
     
 
     .page-top-bar {
-        background: $black-blur;
         &.fixed {
+            background: $black-blur;
             border-bottom-color: $grey-1_darkmode;
         }
         .action-back {
