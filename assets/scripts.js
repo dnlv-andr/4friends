@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.addEventListener("scroll", function() {
         let scrollTop = window.pageYOffset;
-        let parallaxSpeed = 0.5;
+        let parallaxSpeed = 0.64;
         let offset = scrollTop * parallaxSpeed;
 
         // For the parallax effect on the cover-image
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // For scaling down the card
         let scaleAmount = 1 - (scrollTop / 1000);  // Adjust 1000 based on when you want the card to be minimized
-        if(scaleAmount > 0.5) {  // Set a minimum scale limit
+        if(scaleAmount > 0.64) {  // Set a minimum scale limit
             document.querySelector('.place-info').style.transform = `scale(${scaleAmount})`;
         }
     });
