@@ -124,6 +124,10 @@
         top: 0;
     }
 
+    .action-back {
+        fill: $black;
+    }
+
     .title-2 {
         color: $black;
         transform: translateY(-.2rem);
@@ -352,6 +356,9 @@
         background: $black-blur;
         &.fixed {
             border-bottom-color: $grey-1_darkmode;
+        }
+        .action-back {
+            fill: $white;
         }
         .title-2 {
             color: $white;

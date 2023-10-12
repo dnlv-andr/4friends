@@ -136,6 +136,9 @@
   position: fixed;
   top: 0;
 }
+.page-top-bar .action-back {
+  fill: #000003;
+}
 .page-top-bar .title-2 {
   color: #000003;
   transform: translateY(-0.2rem);
@@ -326,6 +329,9 @@
   }
   .page-top-bar.fixed {
     border-bottom-color: rgba(255, 255, 255, 0.12);
+  }
+  .page-top-bar .action-back {
+    fill: white;
   }
   .page-top-bar .title-2 {
     color: white;
