@@ -1,5 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
 
+// Parallax
+
+document.addEventListener("scroll", function() {
+    let scrollTop = window.pageYOffset;
+    let parallaxSpeed = 0.5;
+    let offset = scrollTop * parallaxSpeed;
+
+    document.querySelector('.cover-image').style.transform = `translateY(${offset}px)`;
+});
+
 // Working hours checker
 
     function updateBarStatus() {
