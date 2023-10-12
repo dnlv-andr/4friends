@@ -1,23 +1,46 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-// Parallax
+// Header animations
 
-    document.addEventListener("scroll", function() {
-        let scrollTop = window.pageYOffset;
-        let parallaxSpeed = 0.64;
-        let offset = scrollTop * parallaxSpeed;
+// Debounce function
+function debounce(func, wait = 10, immediate = true) {
+    let timeout;
+    return function() {
+        let context = this, args = arguments;
+        let later = function() {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        let callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
+}
 
-        // For the parallax effect on the cover-image
-        document.querySelector('.cover-image').style.transform = `translateY(${offset}px)`;
+// Update function to handle animations
+function update() {
+    let scrollTop = window.pageYOffset;
+    let parallaxSpeed = 0.5;
+    let offset = scrollTop * parallaxSpeed;
 
-        // For scaling down and moving the card
-        let scaleAmount = 1 - (scrollTop / 1000);  // Adjust 1000 based on when you want the card to be minimized
-        let moveAmount = scrollTop * 0.3;  // Adjust 0.3 to control the speed of the card falling down
-        
-        if(scaleAmount > 0.5) {  // Set a minimum scale limit
-            document.querySelector('.place-info').style.transform = `translateY(${moveAmount}px) scale(${scaleAmount})`;
-        }
-    });
+    // For the parallax effect on the cover-image
+    document.querySelector('.cover-image').style.transform = `translateY(${offset}px)`;
+
+    // For scaling down and moving the card
+    let scaleAmount = 1 - (scrollTop / 1000);
+    let moveAmount = scrollTop * 0.3;
+    
+    if(scaleAmount > 0.5) {
+        document.querySelector('.place-info').style.transform = `translateY(${moveAmount}px) scale(${scaleAmount})`;
+    }
+}
+
+// Attach the scroll event
+document.addEventListener("scroll", debounce(function() {
+    requestAnimationFrame(update);
+}));
+
 
 // Working hours checker
 
