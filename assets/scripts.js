@@ -1,5 +1,23 @@
 document.addEventListener('DOMContentLoaded', function() {
 
+
+// Cards animations
+
+window.addEventListener("load", function() {
+    // Select all .card elements and convert NodeList to Array
+    let cards = Array.from(document.querySelectorAll('.card'));
+
+    // Loop through each .card element
+    cards.forEach(function(card, index) {
+        // Add a slight delay based on the index so that each card fades in one after the other
+        setTimeout(function() {
+            card.style.opacity = "1";
+            card.style.transform = "translateY(0)";
+        }, 100 * index);
+    });
+});
+
+
 // Parallax
 
     document.addEventListener("scroll", function() {
@@ -18,6 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.place-info').style.transform = `translateY(${moveAmount}px) scale(${scaleAmount})`;
         }
     });
+
 
 // Working hours checker
 

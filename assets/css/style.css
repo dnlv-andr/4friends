@@ -102,6 +102,9 @@
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.09);
   border-radius: 2.4rem;
   text-decoration: none;
+  opacity: 0;
+  transform: translateY(4rem);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 .card.colored {
   backdrop-filter: blur(4rem);
