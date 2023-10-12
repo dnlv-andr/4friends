@@ -110,20 +110,21 @@
       right: 0;
     z-index: 200;
     display: flex;
-    gap: 1.6rem;
     align-items: center;
+    gap: 1.6rem;
     height: 7.2rem;
     padding: 2.4rem;
 
     background: transparent;
-    backdrop-filter: blur(2rem);
     transition: $hover-effects;
 
     &.fixed {
+        position: fixed;
+          top: 0;
+  
         background: $white-blur;
         border-bottom: .05rem solid $grey-1_lightmode;
-        position: fixed;
-        top: 0;
+        backdrop-filter: blur(2rem);
     }
 
     .action-back {

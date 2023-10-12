@@ -124,19 +124,19 @@
   right: 0;
   z-index: 200;
   display: flex;
-  gap: 1.6rem;
   align-items: center;
+  gap: 1.6rem;
   height: 7.2rem;
   padding: 2.4rem;
   background: transparent;
-  backdrop-filter: blur(2rem);
   transition: background 0.3s, color 0.24s, opacity 0.32s, fill 0.3s;
 }
 .page-top-bar.fixed {
-  background: rgba(255, 255, 255, 0.8);
-  border-bottom: 0.05rem solid rgba(0, 0, 0, 0.08);
   position: fixed;
   top: 0;
+  background: rgba(255, 255, 255, 0.8);
+  border-bottom: 0.05rem solid rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(2rem);
 }
 .page-top-bar .action-back {
   fill: #000003;
@@ -402,7 +402,7 @@ header .cover-image {
   top: 0;
   left: 0;
   right: 0;
-  bottom: -0.1rem;
+  bottom: -0.2rem;
   z-index: 1;
   background-image: url(../../cover-image/cover.jpg);
   background-size: cover;
