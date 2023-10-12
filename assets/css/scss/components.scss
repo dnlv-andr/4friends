@@ -86,7 +86,7 @@
 
     opacity: 0;
     transform: translateY(4rem);
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    transition: 0.5s opacity 0.5s ease-out, 0.5s transform 0.5s ease-out;
 
     &.colored {
         backdrop-filter: $card-blur;
