@@ -2,9 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Parallax
 
-    let lastScrollTop = 0;
-    let slowedSection = document.querySelector('.header');
-
     document.addEventListener("scroll", function() {
         let scrollTop = window.pageYOffset;
         let parallaxSpeed = 0.64;
@@ -13,18 +10,13 @@ document.addEventListener('DOMContentLoaded', function() {
         // For the parallax effect on the cover-image
         document.querySelector('.cover-image').style.transform = `translateY(${offset}px)`;
 
-        // For scaling down the card
-        let scaleAmount = 1 - (scrollTop / 1000);
-        if(scaleAmount > 0.64) {
-            document.querySelector('.place-info').style.transform = `scale(${scaleAmount})`;
-        }
-
-        // Slow down scroll speed for the header section
-        if (scrollTop > lastScrollTop && scrollTop <= slowedSection.offsetHeight) {
-            window.scrollTo(0, scrollTop - 2);  // Adjust "2" to control the amount of slowing
-        }
+        // For scaling down and moving the card
+        let scaleAmount = 1 - (scrollTop / 1000);  // Adjust 1000 based on when you want the card to be minimized
+        let moveAmount = scrollTop * 0.3;  // Adjust 0.3 to control the speed of the card falling down
         
-        lastScrollTop = scrollTop;
+        if(scaleAmount > 0.5) {  // Set a minimum scale limit
+            document.querySelector('.place-info').style.transform = `translateY(${moveAmount}px) scale(${scaleAmount})`;
+        }
     });
 
 // Working hours checker
