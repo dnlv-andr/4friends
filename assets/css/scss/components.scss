@@ -91,6 +91,7 @@
     }
 
     &.main-bg {
+        backdrop-filter: $card-blur;
         background: linear-gradient(95deg, rgba(250, 82, 82, 0.04) 0%, rgba(92, 124, 250, 0.04) 100%), rgba(245, 246, 248, 0.12);
         box-shadow: 0 .1rem .3rem 0 rgba(0, 0, 0, 0.03);
     }
