@@ -1,33 +1,23 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-// Header animations
+// Parallax
 
-// Update function to handle animations
-function update() {
-    let scrollTop = window.pageYOffset;
-    let parallaxSpeed = 0.5;
-    let offset = scrollTop * parallaxSpeed;
+    document.addEventListener("scroll", function() {
+        let scrollTop = window.pageYOffset;
+        let parallaxSpeed = 0.64;
+        let offset = scrollTop * parallaxSpeed;
 
-    // For the parallax effect on the cover-image
-    document.querySelector('.cover-image').style.transform = `translateY(${offset}px)`;
+        // For the parallax effect on the cover-image
+        document.querySelector('.cover-image').style.transform = `translateY(${offset}px)`;
 
-    // For scaling down and moving the place-card
-    let scaleAmount = 1 - (scrollTop / 1000);
-    let moveAmount = scrollTop * 0.3;
-    
-    if(scaleAmount > 0.5) {
-        document.querySelector('.place-card').style.transform = `translateY(${moveAmount}px) scale(${scaleAmount})`;
-    }
-}
-
-// Call the update function initially
-update();
-
-// Attach the scroll event
-document.addEventListener("scroll", function() {
-    requestAnimationFrame(update);
-});
-
+        // For scaling down and moving the card
+        let scaleAmount = 1 - (scrollTop / 1000);  // Adjust 1000 based on when you want the card to be minimized
+        let moveAmount = scrollTop * 0.42;  // Adjust 0.3 to control the speed of the card falling down
+        
+        if(scaleAmount > 0.5) {  // Set a minimum scale limit
+            document.querySelector('.place-info').style.transform = `translateY(${moveAmount}px) scale(${scaleAmount})`;
+        }
+    });
 
 // Working hours checker
 
