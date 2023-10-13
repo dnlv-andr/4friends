@@ -9,6 +9,243 @@
   ],
   "creatorBuild" : "34518",
   "files" : {
+    "\/_old\/assets\/favicon\/android-chrome-192x192.png" : {
+      "ft" : 32768,
+      "iS" : 10860,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/favicon\/android-chrome-192x192.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/_old\/assets\/favicon\/android-chrome-512x512.png" : {
+      "ft" : 32768,
+      "iS" : 31081,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/favicon\/android-chrome-512x512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/_old\/assets\/favicon\/apple-touch-icon.png" : {
+      "ft" : 32768,
+      "iS" : 8372,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/favicon\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/_old\/assets\/favicon\/browserconfig.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/favicon\/browserconfig.xml",
+      "oF" : 0
+    },
+    "\/_old\/assets\/favicon\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 821,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/favicon\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/_old\/assets\/favicon\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 1246,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/favicon\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/_old\/assets\/favicon\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/favicon\/favicon.ico",
+      "oF" : 0
+    },
+    "\/_old\/assets\/favicon\/mstile-150x150.png" : {
+      "ft" : 32768,
+      "iS" : 7636,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/favicon\/mstile-150x150.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/_old\/assets\/favicon\/og-image.jpg" : {
+      "ft" : 16384,
+      "iS" : 203915,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/favicon\/og-image.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_old\/assets\/favicon\/og-image.png" : {
+      "ft" : 32768,
+      "iS" : 128889,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/favicon\/og-image.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/_old\/assets\/favicon\/safari-pinned-tab.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/_old\/assets\/favicon\/safari-pinned-tab.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/_old\/assets\/favicon\/site.webmanifest" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/favicon\/site.webmanifest",
+      "oF" : 0
+    },
+    "\/_old\/assets\/fonts\/KyivTypeSans-VarGX.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/fonts\/KyivTypeSans-VarGX.ttf",
+      "oF" : 0
+    },
+    "\/_old\/assets\/logo-white.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/_old\/assets\/logo-white.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/_old\/assets\/og-image-new.jpg" : {
+      "ft" : 16384,
+      "iS" : 203915,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/og-image-new.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_old\/assets\/reset.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/assets\/reset-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_old\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/index.html",
+      "oF" : 0
+    },
+    "\/_old\/menu\/menu-cocktails-old.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/menu\/menu-cocktails-old.pdf",
+      "oF" : 0
+    },
+    "\/_old\/menu\/menu-cocktails.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/menu\/menu-cocktails.pdf",
+      "oF" : 0
+    },
+    "\/_old\/menu\/menu-coffee.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/menu\/menu-coffee.pdf",
+      "oF" : 0
+    },
+    "\/_old\/menu\/menu-wine-n-beer.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/menu\/menu-wine-n-beer.pdf",
+      "oF" : 0
+    },
+    "\/_old\/testcode\/pixel.log" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/testcode\/pixel.log",
+      "oF" : 0
+    },
+    "\/_old\/testcode\/tracking.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_old\/testcode\/tracking.php",
+      "oF" : 0
+    },
     "\/.gitattributes" : {
       "cB" : 0,
       "ft" : 8192,
@@ -433,6 +670,58 @@
       "oAP" : "\/lemonades.html",
       "oF" : 0
     },
+    "\/media\/items-photos\/lemonades\/clubmate-cola.jpg" : {
+      "ft" : 16384,
+      "iS" : 16014,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/media\/items-photos\/lemonades\/clubmate-cola.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/items-photos\/lemonades\/clubmate.jpg" : {
+      "ft" : 16384,
+      "iS" : 28276,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/media\/items-photos\/lemonades\/clubmate.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/items-photos\/lemonades\/godzyki.jpg" : {
+      "ft" : 16384,
+      "iS" : 21203,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/media\/items-photos\/lemonades\/godzyki.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/items-photos\/lemonades\/wostok.jpg" : {
+      "ft" : 16384,
+      "iS" : 25676,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/media\/items-photos\/lemonades\/wostok.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/new\/templates\/category.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -463,243 +752,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/new\/templates\/homepage.html",
-      "oF" : 0
-    },
-    "\/old\/assets\/favicon\/android-chrome-192x192.png" : {
-      "ft" : 32768,
-      "iS" : 10860,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/favicon\/android-chrome-192x192.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/old\/assets\/favicon\/android-chrome-512x512.png" : {
-      "ft" : 32768,
-      "iS" : 31081,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/favicon\/android-chrome-512x512.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/old\/assets\/favicon\/apple-touch-icon.png" : {
-      "ft" : 32768,
-      "iS" : 8372,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/favicon\/apple-touch-icon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/old\/assets\/favicon\/browserconfig.xml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/favicon\/browserconfig.xml",
-      "oF" : 0
-    },
-    "\/old\/assets\/favicon\/favicon-16x16.png" : {
-      "ft" : 32768,
-      "iS" : 821,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/favicon\/favicon-16x16.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/old\/assets\/favicon\/favicon-32x32.png" : {
-      "ft" : 32768,
-      "iS" : 1246,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/favicon\/favicon-32x32.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/old\/assets\/favicon\/favicon.ico" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/favicon\/favicon.ico",
-      "oF" : 0
-    },
-    "\/old\/assets\/favicon\/mstile-150x150.png" : {
-      "ft" : 32768,
-      "iS" : 7636,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/favicon\/mstile-150x150.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/old\/assets\/favicon\/og-image.jpg" : {
-      "ft" : 16384,
-      "iS" : 203915,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/favicon\/og-image.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/old\/assets\/favicon\/og-image.png" : {
-      "ft" : 32768,
-      "iS" : 128889,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/favicon\/og-image.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/old\/assets\/favicon\/safari-pinned-tab.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/old\/assets\/favicon\/safari-pinned-tab.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/old\/assets\/favicon\/site.webmanifest" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/favicon\/site.webmanifest",
-      "oF" : 0
-    },
-    "\/old\/assets\/fonts\/KyivTypeSans-VarGX.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/fonts\/KyivTypeSans-VarGX.ttf",
-      "oF" : 0
-    },
-    "\/old\/assets\/logo-white.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/old\/assets\/logo-white.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/old\/assets\/og-image-new.jpg" : {
-      "ft" : 16384,
-      "iS" : 203915,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/og-image-new.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/old\/assets\/reset.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/assets\/reset-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/old\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/index.html",
-      "oF" : 0
-    },
-    "\/old\/menu\/menu-cocktails-old.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/menu\/menu-cocktails-old.pdf",
-      "oF" : 0
-    },
-    "\/old\/menu\/menu-cocktails.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/menu\/menu-cocktails.pdf",
-      "oF" : 0
-    },
-    "\/old\/menu\/menu-coffee.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/menu\/menu-coffee.pdf",
-      "oF" : 0
-    },
-    "\/old\/menu\/menu-wine-n-beer.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/menu\/menu-wine-n-beer.pdf",
-      "oF" : 0
-    },
-    "\/old\/testcode\/pixel.log" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/testcode\/pixel.log",
-      "oF" : 0
-    },
-    "\/old\/testcode\/tracking.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/old\/testcode\/tracking.php",
       "oF" : 0
     },
     "\/partnership.html" : {
