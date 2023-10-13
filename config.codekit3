@@ -346,32 +346,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/assets\/favicon\/android-chrome-192x192.png" : {
-      "ft" : 32768,
-      "iS" : 3995,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/android-chrome-192x192.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/favicon\/android-chrome-512x512.png" : {
-      "ft" : 32768,
-      "iS" : 15539,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/android-chrome-512x512.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/assets\/favicon\/apple-touch-icon.png" : {
       "ft" : 32768,
       "iS" : 14300,
@@ -426,6 +400,32 @@
       "oA" : 0,
       "oAP" : "\/assets\/favicon\/favicon.ico",
       "oF" : 0
+    },
+    "\/assets\/favicon\/icon-192x192.png" : {
+      "ft" : 32768,
+      "iS" : 6100,
+      "oA" : 0,
+      "oAP" : "\/assets\/favicon\/icon-192x192.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/favicon\/icon-512x512.png" : {
+      "ft" : 32768,
+      "iS" : 15539,
+      "oA" : 0,
+      "oAP" : "\/assets\/favicon\/icon-512x512.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
     "\/assets\/favicon\/mstile-150x150.png" : {
       "ft" : 32768,
@@ -753,6 +753,28 @@
       "oA" : 0,
       "oAP" : "\/new\/templates\/homepage.html",
       "oF" : 0
+    },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/partnership.html" : {
       "cB" : 0,
