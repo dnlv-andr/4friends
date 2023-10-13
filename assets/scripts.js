@@ -1,14 +1,3 @@
-// Viewport settings is < 380
-// ==================================================================
-function adjustViewport() {
-    const viewport = document.getElementById("viewport");
-
-    if (window.innerWidth < 390) {
-        viewport.setAttribute("content", "width=390, user-scalable=no");  // Set to a fixed width
-    } else {
-        viewport.setAttribute("content", "width=device-width, initial-scale=1.0, maximum-scale=1.3, user-scalable=no");  // Reset to default
-    }
-}
 
 // Cards Animation Initialization
 // ==================================================================
@@ -242,7 +231,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initAll(); // Initialize all functionalities
     updateBarStatus();
     setInterval(updateBarStatus, 60000);
-    adjustViewport();
-    window.addEventListener("resize", adjustViewport);
 });
 
