@@ -393,6 +393,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/favicon\/favicon-ios.png" : {
+      "ft" : 32768,
+      "iS" : 35546,
+      "oA" : 0,
+      "oAP" : "\/assets\/favicon\/favicon-ios.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/favicon\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
@@ -427,6 +440,16 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/favicon\/icon-vector.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/favicon\/icon-vector.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/favicon\/mstile-150x150.png" : {
       "ft" : 32768,
       "iS" : 15453,
@@ -449,6 +472,32 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/assets\/favicon\/screen-1.png" : {
+      "ft" : 32768,
+      "iS" : 706099,
+      "oA" : 0,
+      "oAP" : "\/assets\/favicon\/screen-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/favicon\/screen-2.png" : {
+      "ft" : 32768,
+      "iS" : 704569,
+      "oA" : 0,
+      "oAP" : "\/assets\/favicon\/screen-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
     "\/assets\/favicon\/site.webmanifest" : {
       "cB" : 0,
