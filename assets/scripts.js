@@ -17,7 +17,7 @@ function initCardAnimations() {
     cards.forEach(function(card, index) {
         setTimeout(function() {
             card.style.opacity = "1";
-            card.style.transform = "translateY(0)";
+            card.style.transform = "translate3D(0, 0, 0)";
         }, 100 * index);
     });
 }
@@ -31,7 +31,7 @@ function initParallax() {
         let offset = scrollTop * parallaxSpeed;
 
         // For the parallax effect on the cover-image
-        document.querySelector('.cover-image').style.transform = `translateY(${offset}px)`;
+        document.querySelector('.cover-image').style.transform = `translate3d(0, ${offset}px, 0)`;
 
         // For scaling down and moving the card
         let scaleAmount = 1 - (scrollTop / 1000);  // Adjust 1000 based on when you want the card to be minimized
