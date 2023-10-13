@@ -1,4 +1,4 @@
-// Viewport settings is < 390
+// Viewport settings is < 380
 // ==================================================================
 function adjustViewport() {
     const viewport = document.getElementById("viewport");
@@ -246,18 +246,3 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener("resize", adjustViewport);
 });
 
-// Service Worker
-// ==================================================================
-
-if ("serviceWorker" in navigator) {
-    window.addEventListener("load", function() {
-        navigator.serviceWorker.register("/assets/service-worker.js").then(
-            function(registration) {
-                console.log("Service Worker registered with scope: ", registration.scope);
-            },
-            function(err) {
-                console.log("Service Worker registration failed: ", err);
-            }
-        );
-    });
-}
