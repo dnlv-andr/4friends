@@ -445,19 +445,6 @@
       "oAP" : "\/assets\/favicon\/browserconfig.xml",
       "oF" : 0
     },
-    "\/assets\/favicon\/favicon-16x16.png" : {
-      "ft" : 32768,
-      "iS" : 430,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/favicon-16x16.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/assets\/favicon\/favicon-32x32.png" : {
       "ft" : 32768,
       "iS" : 2828,
@@ -492,11 +479,11 @@
       "oAP" : "\/assets\/favicon\/favicon.ico",
       "oF" : 0
     },
-    "\/assets\/favicon\/icon-192x192.png" : {
+    "\/assets\/favicon\/favicon.png" : {
       "ft" : 32768,
       "iS" : 6100,
       "oA" : 0,
-      "oAP" : "\/assets\/favicon\/icon-192x192.png",
+      "oAP" : "\/assets\/favicon\/favicon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -504,6 +491,16 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
+    },
+    "\/assets\/favicon\/favicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/favicon\/favicon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/assets\/favicon\/icon-512x512.png" : {
       "ft" : 32768,
@@ -866,19 +863,6 @@
       "iS" : 125047,
       "oA" : 0,
       "oAP" : "\/assets\/favicon\/ios\/1024.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/favicon\/mstile-150x150.png" : {
-      "ft" : 32768,
-      "iS" : 15453,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/mstile-150x150.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2094,6 +2078,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/assets\/scripts-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/assets\/service-worker.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/service-worker-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
