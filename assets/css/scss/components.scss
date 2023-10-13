@@ -89,15 +89,18 @@
     transition:
         opacity 0.42s ease,
         transform 0.56s ease;
+    will-change: opacity, transform;
 
     &.colored {
         backdrop-filter: $card-blur;
+        -webkit-backdrop-filter: $card-blur;
         background: $card-colored-bg;
         box-shadow: $card-colored-shadow;
     }
 
     &.main-bg {
         backdrop-filter: $card-blur;
+        -webkit-backdrop-filter: $card-blur;
         background: linear-gradient(95deg, rgba(250, 82, 82, 0.04) 0%, rgba(92, 124, 250, 0.04) 100%), rgba(245, 246, 248, 0.12);
         box-shadow: 0 .1rem .3rem 0 rgba(0, 0, 0, 0.03);
     }
@@ -111,35 +114,98 @@
 
 .page-top-bar {
     position: absolute;
-      top: 4rem;
+      top: 1.6rem;
       left: 0;
       right: 0;
     z-index: 200;
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
-    height: 7.2rem;
-    padding: 2.4rem;
-
+    
     background: transparent;
     transition: $hover-effects;
+    will-change: background, backdrop-filter;
 
     &.fixed {
+        padding: 0 calc( 50% - 24rem );
         position: fixed;
           top: 0;
   
         background: $white-blur;
         border-bottom: .05rem solid $grey-1_lightmode;
         backdrop-filter: blur(2rem);
+        -webkit-backdrop-filter: blur(2rem);
     }
 
-    .action-back {
-        fill: $black;
+    .title-row {
+        display: flex;
+        gap: .8rem;
+        align-items: center;
+        justify-content: space-between;
+
+        height: 7.2rem;
+        padding: 1.6rem;
+
+        .action-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 4rem;
+            height: 4rem;
+
+            cursor: pointer;
+            fill: $black;
+        }
+
+        .title-2 {
+            flex: 1;
+            color: $black;
+            text-align: center;
+        }
     }
 
-    .title-2 {
-        color: $black;
-        transform: translateY(-.2rem);
+    .tabs-row {
+        padding: 0 2.4rem 1.6rem;
+
+        .tabs-wrapper {
+            display: flex;
+            gap: .4rem;
+            padding: .4rem;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            white-space: nowrap;
+            
+            border-radius: 2rem;
+            border: .05rem solid $grey-1_lightmode;
+            background: $grey-0_lightmode;
+            box-shadow: 0 .1rem .2rem 0 rgba(0, 0, 0, 0.04) inset;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            .tab-item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                height: 3.2rem;
+                padding: 0 1.6rem;
+
+                border-radius: 1.6rem;
+                transition: $hover-effects;
+
+                color: $grey-8_lightmode;
+                text-decoration: none;
+
+                &.active {
+                    background-color: $white;
+                    box-shadow:
+                        0 .1rem .1rem 0 rgba(0, 0, 0, 0.04),
+                        0 .2rem .4rem 0 rgba(0, 0, 0, 0.10);
+                    color: $grey-9_lightmode;
+                }
+            }
+        }
     }
 }
 
@@ -233,6 +299,7 @@
     justify-content: space-between;
     text-decoration: none;
     transition: $hover-effects;
+    cursor: pointer;
 
     &:hover {
         background: $grey-0_lightmode;
@@ -366,11 +433,28 @@
             background: $black-blur;
             border-bottom-color: $grey-1_darkmode;
         }
-        .action-back {
-            fill: $white;
+        .title-row {
+            .action-button {
+                fill: $white;
+            }
+            .title-2 {
+                color: $white;
+            }
         }
-        .title-2 {
-            color: $white;
+        .tabs-row {
+            .tabs-wrapper {
+                border: .05rem solid $grey-1_darkmode;
+                background: $grey-0_darkmode;
+
+                .tab-item {
+                    color: $grey-8_darkmode;
+
+                    &.active {
+                        background-color: $black;
+                        color: $grey-9_darkmode;
+                    }
+                }
+            }
         }
     }
 
