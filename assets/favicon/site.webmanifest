@@ -2,42 +2,57 @@
     "name": "For Friends на Франка 29",
     "short_name": "For Friends",
     "icons": [
-        {
-            "src": "/assets/favicon/images/icon-vector.svg",
-            "type": "image/svg+xml",
-            "sizes": "512x512"
-        },
-        {
-            "src": "/assets/favicon/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "any maskable"
-        },
-        {
-            "src": "/assets/favicon/icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "any maskable"
-        }
+      {
+        "src": "/assets/favicon/images/icon-vector.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/assets/favicon/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/favicon/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
     ],
     "theme_color": "#f6f7fc",
     "background_color": "#f6f7fc",
     "start_url": "4friends.cafe",
-    "display": "fullscreen",
+    "display": "standalone",
     "orientation": "portrait",
     "description": "Кавʼярня, коворкінг, бар та міський простір на Золотих воротах. Київ, вул. Івана Франка 29.",
     "screenshots": [
-        {
+      {
         "src": "/assets/favicon/screen-1.png",
         "type": "image/png",
         "sizes": "412x800",
         "form_factor": "narrow"
-        },
-        {
-            "src": "/assets/favicon/screen-2.png",
-            "type": "image/png",
-            "sizes": "412x800",
-            "form_factor": "narrow"
-        }
-    ]
-}
+      },
+      {
+        "src": "/assets/favicon/screen-2.png",
+        "type": "image/png",
+        "sizes": "412x800",
+        "form_factor": "narrow"
+      }
+    ],
+    "categories": [
+      "entertainment",
+      "food",
+      "lifestyle"
+    ],
+    "lang": "uk",
+    "share_target": {
+      "method": "GET",
+      "action": "4friends.cafe",
+      "params": {
+        "title": "Для Друзів на Франка",
+        "text": "Кавʼярня, коворкінг, бар та міський простір на Золотих воротах.Київ, вул. Івана Франка 29.",
+        "url": "4friends.cafe"
+      }
+    }
+  }
