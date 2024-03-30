@@ -44,7 +44,7 @@ function updateBarStatus() {
     const currentHour = now.getHours();
     const currentMinute = now.getMinutes();
 
-    const openingTime = (currentDay === 0 || currentDay === 6) ? 11 : 10; // 11:00 AM on weekends, 10:00 AM otherwise
+    const openingTime = (currentDay === 0 || currentDay === 6) ? 14 : 13; // 11:00 AM on weekends, 10:00 AM otherwise
     const closingTime = 23; // 11:00 PM
     const lastHour = closingTime - 1; // 10:00 PM
 

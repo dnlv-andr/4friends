@@ -401,19 +401,6 @@
       "oAP" : "\/assets\/favicon\/favicon.ico",
       "oF" : 0
     },
-    "\/assets\/favicon\/favicon.png" : {
-      "ft" : 32768,
-      "iS" : 6100,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/favicon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/assets\/favicon\/favicon.svg" : {
       "ft" : 2097152,
       "miP" : 0,

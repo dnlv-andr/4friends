@@ -119,7 +119,7 @@
       right: 0;
     z-index: 200;
     
-    background: transparent;
+    background: $white-blur;
     transition: $hover-effects;
     will-change: background, backdrop-filter;
 
@@ -128,7 +128,6 @@
         position: fixed;
           top: 0;
   
-        background: $white-blur;
         border-bottom: .05rem solid $grey-1_lightmode;
         backdrop-filter: blur(2rem);
         -webkit-backdrop-filter: blur(2rem);
