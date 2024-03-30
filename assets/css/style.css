@@ -129,17 +129,17 @@
   left: 0;
   right: 0;
   z-index: 200;
+  border-bottom: 0.05rem solid transparent;
   background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2rem);
+  -webkit-backdrop-filter: blur(2rem);
   transition: background 0.3s, color 0.24s, opacity 0.32s, fill 0.3s;
-  will-change: background, backdrop-filter;
 }
 .page-top-bar.fixed {
   padding: 0 calc(50% - 24rem);
   position: fixed;
   top: 0;
   border-bottom: 0.05rem solid rgba(0, 0, 0, 0.08);
-  backdrop-filter: blur(2rem);
-  -webkit-backdrop-filter: blur(2rem);
 }
 .page-top-bar .title-row {
   display: flex;
@@ -380,8 +380,10 @@
   .color-grey-9 {
     color: rgba(255, 255, 255, 0.94);
   }
-  .page-top-bar.fixed {
+  .page-top-bar {
     background: rgba(0, 0, 0, 0.68);
+  }
+  .page-top-bar.fixed {
     border-bottom-color: rgba(255, 255, 255, 0.12);
   }
   .page-top-bar .title-row .action-button {

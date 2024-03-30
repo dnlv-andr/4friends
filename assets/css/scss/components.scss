@@ -118,10 +118,13 @@
       left: 0;
       right: 0;
     z-index: 200;
-    
+
+    border-bottom: .05rem solid transparent;
     background: $white-blur;
+    backdrop-filter: blur(2rem);
+    -webkit-backdrop-filter: blur(2rem);
+
     transition: $hover-effects;
-    will-change: background, backdrop-filter;
 
     &.fixed {
         padding: 0 calc( 50% - 24rem );
@@ -129,8 +132,6 @@
           top: 0;
   
         border-bottom: .05rem solid $grey-1_lightmode;
-        backdrop-filter: blur(2rem);
-        -webkit-backdrop-filter: blur(2rem);
     }
 
     .title-row {
@@ -428,8 +429,9 @@
     
 
     .page-top-bar {
+        background: $black-blur;
+
         &.fixed {
-            background: $black-blur;
             border-bottom-color: $grey-1_darkmode;
         }
         .title-row {
