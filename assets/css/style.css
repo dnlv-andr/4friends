@@ -609,7 +609,7 @@ header .place-info .second-line .route-button:hover {
   flex-direction: column;
   margin: 0 2.4rem 1.6rem;
   padding: 1.4rem 1.6rem;
-  border: 0.05rem solid rgba(0, 0, 0, 0.08);
+  border: 0.05rem solid rgba(0, 0, 0, 0.16);
   border-radius: 2.4rem;
 }
 
