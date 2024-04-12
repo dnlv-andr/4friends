@@ -216,8 +216,11 @@ header {
  * ========================================================================= */
 
 .info-message {
+    margin: 0 2.4rem;
     padding: 0 2.4rem 0 1.6rem;
-    border-bottom: 0.05rem solid rgba(0, 0, 0, 0.08);
+
+    border: 0.05rem solid rgba(0, 0, 0, 0.08);
+    border-radius: 2.4rem;
 }
 
 
