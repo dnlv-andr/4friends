@@ -607,10 +607,13 @@ header .place-info .second-line .route-button:hover {
   flex: 1;
   gap: 0.4rem;
   flex-direction: column;
-  margin: 0 2.4rem 1.6rem;
+  margin: 0 2.4rem 2.4rem;
   padding: 1.4rem 1.6rem;
   border: 0.05rem solid rgba(0, 0, 0, 0.16);
   border-radius: 2.4rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4rem);
+  -webkit-backdrop-filter: blur(4rem);
 }
 
 /* =========================================================================
@@ -619,7 +622,7 @@ header .place-info .second-line .route-button:hover {
 .main-content {
   display: flex;
   flex-direction: column;
-  padding: 4rem 0;
+  padding: 3.2rem 0;
 }
 .main-content.category-menu {
   position: relative;
@@ -693,6 +696,10 @@ footer .copyright-box a {
   }
   header .place-info .second-line .route-button {
     color: #9BACFF;
+  }
+  .info-message {
+    border: 0.05rem solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.68);
   }
   footer .socials-box .soc-icon {
     fill: rgba(255, 255, 255, 0.94);

@@ -211,7 +211,6 @@ header {
 }
 
 
-
 /*  Info section
  * ========================================================================= */
 
@@ -221,13 +220,15 @@ header {
     gap: 0.4rem;
     flex-direction: column;
 
-    margin: 0 2.4rem 1.6rem;
+    margin: 0 2.4rem 2.4rem;
     padding: 1.4rem 1.6rem;
 
     border: 0.05rem solid rgba(0, 0, 0, .16);
     border-radius: 2.4rem;
+    background-color: $white-blur;
+    backdrop-filter: $card-blur;
+    -webkit-backdrop-filter: $card-blur;
 }
-
 
 
 /* =========================================================================
@@ -237,7 +238,7 @@ header {
 .main-content {
     display: flex;
     flex-direction: column;
-    padding: 4rem 0;
+    padding: 3.2rem 0;
 
     &.category-menu {
         position: relative;
@@ -341,6 +342,11 @@ footer {
                 }
             }
         }
+    }
+
+    .info-message {
+        border: 0.05rem solid rgba(255, 255, 255, .2);
+        background-color: $black-blur;
     }
     
     footer {
