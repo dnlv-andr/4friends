@@ -216,7 +216,12 @@ header {
  * ========================================================================= */
 
 .info-message {
-    margin: 0 1.6rem 1.6rem;
+    display: flex;
+    flex: 1;
+    gap: 0.4rem;
+    flex-direction: column;
+
+    margin: 0 2.4rem 1.6rem;
     padding: 1.4rem 1.6rem;
 
     border: 0.05rem solid rgba(0, 0, 0, 0.08);
