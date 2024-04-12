@@ -603,7 +603,7 @@ header .place-info .second-line .route-button:hover {
 /*  Info section
  * ========================================================================= */
 .info-message {
-  margin: 0 2.4rem;
+  margin: 0 1.6rem 1.6rem;
   padding: 1.4rem 1.6rem;
   border: 0.05rem solid rgba(0, 0, 0, 0.08);
   border-radius: 2.4rem;
