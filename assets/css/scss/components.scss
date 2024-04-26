@@ -30,6 +30,10 @@
     font-size: 1.6rem;
     line-height: 2rem;
     letter-spacing: -0.064rem;
+
+    &.password {
+        letter-spacing: 0.1rem;
+    }
 }
 
 .caption-3 {

@@ -39,6 +39,9 @@
   line-height: 2rem;
   letter-spacing: -0.064rem;
 }
+.caption-1.password {
+  letter-spacing: 0.1rem;
+}
 
 .caption-3 {
   font-size: 1.2rem;
@@ -641,12 +644,14 @@ footer {
   flex-direction: column;
   padding: 0 4rem;
 }
+footer .wifi-box,
 footer .timetable-box {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
   padding-top: 3.6rem;
 }
+footer .wifi-box .row,
 footer .timetable-box .row {
   display: flex;
   justify-content: space-between;
